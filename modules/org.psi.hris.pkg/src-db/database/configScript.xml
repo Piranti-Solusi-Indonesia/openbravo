@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+  <vector>
+    <versionInfo version="3.0.221900"/>
+    <columnDataChange tablename="AD_COLUMN" columnname="DEFAULTVALUE" pkRow="4940">
+      <oldValue><![CDATA[@SQL=SELECT MAX(C_BP_GROUP_ID) FROM C_BP_GROUP WHERE AD_ISORGINCLUDED(@AD_ORG_ID@, AD_ORG_ID, @#AD_CLIENT_ID@) <> -1 AND ISDEFAULT = 'Y' AND AD_CLIENT_ID = @#AD_CLIENT_ID@]]></oldValue>
+      <newValue><![CDATA[@hr_default_bpgroup@]]></newValue>
+    </columnDataChange>
+  </vector>
