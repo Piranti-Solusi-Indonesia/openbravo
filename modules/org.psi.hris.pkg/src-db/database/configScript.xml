@@ -1,8 +1,72 @@
 <?xml version="1.0"?>
   <vector>
     <versionInfo version="3.0.221900"/>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="144">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="195">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="245">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="247">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="255">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="800025">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="800032">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="1004400001">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="7F06BC5C7987471FB57499C3CF647788">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="DCB60794671A4787A0718FB918CD9CEE">
+      <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
+      <newValue><![CDATA[c_bpartner_id]]></newValue>
+    </columnDataChange>
     <columnDataChange tablename="AD_COLUMN" columnname="DEFAULTVALUE" pkRow="4940">
       <oldValue><![CDATA[@SQL=SELECT MAX(C_BP_GROUP_ID) FROM C_BP_GROUP WHERE AD_ISORGINCLUDED(@AD_ORG_ID@, AD_ORG_ID, @#AD_CLIENT_ID@) <> -1 AND ISDEFAULT = 'Y' AND AD_CLIENT_ID = @#AD_CLIENT_ID@]]></oldValue>
       <newValue><![CDATA[@hr_default_bpgroup@]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_TABLE" columnname="AD_WINDOW_ID" pkRow="7D22D741FF084758A529A2540E428BF4">
+      <oldValue/>
+      <newValue><![CDATA[46E9A5B5E67540CF9112D3FC6A7405FF]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_TABLE" columnname="AD_WINDOW_ID" pkRow="E59123E7542C47C28EA99DBDA5D22EF4">
+      <oldValue/>
+      <newValue><![CDATA[AA2CB00D3F7C4295A9C992568D6C6D6A]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_TREENODE" columnname="SEQNO" pkRow="1445B639A30D4CFD8A5433FD04B4753D">
+      <oldValue><![CDATA[10]]></oldValue>
+      <newValue><![CDATA[20]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_TREENODE" columnname="SEQNO" pkRow="745D147973F347FB811F2505AECE3034">
+      <oldValue><![CDATA[20]]></oldValue>
+      <newValue><![CDATA[30]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_TREENODE" columnname="SEQNO" pkRow="8CD8FE4BC94741EE8920C1FD1A7AD1FF">
+      <oldValue><![CDATA[20]]></oldValue>
+      <newValue><![CDATA[30]]></newValue>
+    </columnDataChange>
+    <columnDataChange tablename="AD_TREENODE" columnname="SEQNO" pkRow="E05A548FBB6249DDA482598BF2AAE172">
+      <oldValue><![CDATA[30]]></oldValue>
+      <newValue><![CDATA[40]]></newValue>
     </columnDataChange>
   </vector>
