@@ -79,4 +79,6 @@ test-reports
 !/modules/org.openbravo.v3
 !/modules/org.openbravo.v3.datasets
 !/modules/org.openbravo.v3.framework
+!/modules/org.psi.hris
+!/modules/org.psi.hris.pkg
 
