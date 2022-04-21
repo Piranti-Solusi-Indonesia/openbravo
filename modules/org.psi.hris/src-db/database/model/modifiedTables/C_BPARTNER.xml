@@ -13,6 +13,10 @@
         <default><![CDATA[N]]></default>
         <onCreateDefault/>
       </column>
+      <column name="EM_HR_ISMARRIED" primaryKey="false" required="true" type="CHAR" size="1" autoIncrement="false">
+        <default><![CDATA[N]]></default>
+        <onCreateDefault/>
+      </column>
       <check name="EM_HR_BP_BOD_CHK"><![CDATA[EM_HR_ISBOD IN ('Y', 'N')]]></check>
     </table>
   </database>

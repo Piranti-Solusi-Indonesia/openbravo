@@ -65,6 +65,10 @@
         <default><![CDATA[SUBMIT]]></default>
         <onCreateDefault/>
       </column>
+      <column name="CALCSALARY" primaryKey="false" required="true" type="CHAR" size="1" autoIncrement="false">
+        <default><![CDATA[Y]]></default>
+        <onCreateDefault/>
+      </column>
       <foreign-key foreignTable="AD_CLIENT" name="HR_SALARYPAYMENT_CLIENT">
         <reference local="AD_CLIENT_ID" foreign="AD_CLIENT_ID"/>
       </foreign-key>
