@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
   <vector>
     <versionInfo version="3.0.221900"/>
+    <columnDataChange tablename="AD_MENU" columnname="ISACTIVE" pkRow="170">
+      <oldValue><![CDATA[N]]></oldValue>
+      <newValue><![CDATA[Y]]></newValue>
+    </columnDataChange>
     <columnDataChange tablename="AD_PROCESS_PARA" columnname="COLUMNNAME" pkRow="144">
       <oldValue><![CDATA[C_BPartner_ID]]></oldValue>
       <newValue><![CDATA[c_bpartner_id]]></newValue>
@@ -52,13 +56,5 @@
     <columnDataChange tablename="AD_COLUMN" columnname="AD_REFERENCE_VALUE_ID" pkRow="001CED13359C4BABADD654569723B6BE">
       <oldValue/>
       <newValue><![CDATA[131]]></newValue>
-    </columnDataChange>
-    <columnDataChange tablename="AD_TAB" columnname="HQLWHERECLAUSE" pkRow="180412B19E3B44B6B60591AEC0CD4E99">
-      <oldValue><![CDATA[e.recordID = @hr_salarypayment.id@]]></oldValue>
-      <newValue><![CDATA[e.table.id='73573E953BB24369B702AE3C251DDED0' AND e.recordID=@hr_salarypayment.id@]]></newValue>
-    </columnDataChange>
-    <columnDataChange tablename="AD_TABLE" columnname="CLASSNAME" pkRow="51F67DC609264C1A9921684A74492305">
-      <oldValue><![CDATA[Approvak]]></oldValue>
-      <newValue><![CDATA[Approval]]></newValue>
     </columnDataChange>
   </vector>
